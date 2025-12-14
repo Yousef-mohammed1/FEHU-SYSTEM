@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>image/babyyassin.jpg</file>
+        <file>image/fehuimage.png</file>
+        <file>image/finalgdol.png</file>
+        <file>image/finalgdol1.png</file>
+        <file>image/finalgdol2.png</file>
+        <file>image/finalgdol3.png</file>
+        <file>image/finalgdol4.png</file>
+        <file>image/gdol.png</file>
+        <file>image/gdol1.jpg</file>
+        <file>image/gdol2.png</file>
+        <file>image/gdol3.png</file>
+        <file>image/gdol4.jpg</file>
+        <file>image/gdol5.png</file>
+        <file>image/leader.jpg</file>
+        <file>image/littledep.jpg</file>
+        <file>image/logo.png</file>
+        <file>image/yousef3sool.jpg</file>
+        <file>image/babyshado.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>einfo</class>
+ <widget class="QDialog" name="einfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>858</width>
+    <height>735</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>328</width>
+     <height>68</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 17pt;</string>
+   </property>
+   <property name="text">
+    <string>Student Info</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>670</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 20pt;</string>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>31</x>
+     <y>100</y>
+     <width>330</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">font-size: 15pt;</string>
+        </property>
+        <property name="text">
+         <string>Name</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">font-size: 15pt;</string>
+        </property>
+        <property name="text">
+         <string>Address</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_2"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">font-size: 15pt;</string>
+        </property>
+        <property name="text">
+         <string>Birthdate</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_3"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">font-size: 15pt;</string>
+        </property>
+        <property name="text">
+         <string>Student’s Code</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_4"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="styleSheet">
+         <string notr="true">font-size: 15pt;</string>
+        </property>
+        <property name="text">
+         <string>Gender</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox">
+        <item>
+         <property name="text">
+          <string>Male</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Female</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_11">
+        <property name="styleSheet">
+         <string notr="true">font-size: 15pt;</string>
+        </property>
+        <property name="text">
+         <string>National ID</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_6"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">font-size: 15pt;</string>
+        </property>
+        <property name="text">
+         <string>Academic Year</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_2">
+        <item>
+         <property name="text">
+          <string>preparation year</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1st year , computer</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2nd year , computer</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3rd year , computer</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4th year , computer </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1st year , communication</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2nd year , communicationm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3rd year , communication</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4th year , communication</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1st year ,Electrical </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2nd year ,Electrical </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3rd year ,Electrical </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4th year , Electrical </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1st year ,Medical  </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2nd year , Medical </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3rd year ,Medical </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4th year , Medical </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1st year . Mechanical </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2nd year ,Mechanical </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3rd year ,Mechanical </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4th year ,Mechanical </string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="studentimage">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>140</y>
+     <width>211</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
