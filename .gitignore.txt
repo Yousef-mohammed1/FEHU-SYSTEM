@@ -1,0 +1,32 @@
+# C++ objects and libs
+*.slo
+*.lo
+*.o
+*.obj
+*.lib
+*.a
+*.dll
+*.exe
+
+# Qt Creator / CMake specific
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+*.cmake
+*-build-*
+build/
+debug/
+release/
+.qmake.stash
+
+# Qt user files
+*.pro.user
+*.pro.user.*
+*.qmake.cache
+
+# IDE specific
+.vscode/
+.idea/
+*.autosave
